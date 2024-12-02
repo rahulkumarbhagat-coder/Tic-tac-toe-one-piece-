@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    background-image: url(gear-5-luffy-luffy-gear-5.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+}
+
+main h1{
+    font-size: 60px;
+    margin-top: 6px;
+    width: 25%;
+    border: 1px solid whitesmoke;
+    box-shadow: 1rem 2rem 3rem grey;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    justify-content: center;
+    border: 1px solid white;
+    box-shadow: 1rem 2rem 3rem grey;
+    align-items: center;
+    padding: 6px;
+}
+
+.box{ 
+    height: 19vmin;
+    width: 19vmin;
+    border-radius: 4rem;
+    border: none;
+    box-shadow: 2 2 2rem rgba(0, 0, 0, 0.4);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+.box:hover{
+    box-shadow: 4rem 4rem 5rem rgba(0, 0, 0, 2);
+}
+
+.button{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    font-size: 6vmin;
+    color: #ffffc7;
+    font-weight: 700;
+}
+
+.msg-container{
+    height: 100vmin;
+    flex-direction: column;
+    gap: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
